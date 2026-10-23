@@ -2,7 +2,8 @@
 *{box-sizing:border-box}body{margin:0;background:#fff;color:#171717;font:15px 'Malgun Gothic',sans-serif}button,input,select,textarea{font:inherit;color:inherit}button{cursor:pointer;border:1px solid #b7bdc3;background:white;border-radius:4px;padding:9px 13px}button:hover{background:#f2f4f6}button.primary{background:#2e5c91;border-color:#2e5c91;color:white}button:disabled{opacity:.5;cursor:not-allowed}input,select{border:1px solid #bcc2c8;border-radius:3px;background:#fff;padding:7px}main{max-width:1570px;margin:27px auto;padding:0 24px}.toolbar{display:flex;justify-content:space-between;gap:18px;align-items:center;padding-bottom:20px;border-bottom:1px solid #e1e1e1;margin-bottom:20px}.controls,.buttons{display:flex;gap:9px;align-items:center}.controls label{font-size:13px;color:#555}.controls input{width:153px}.caption{font-weight:700;font-size:17px;margin-bottom:8px;display:flex;justify-content:space-between;align-items:center}.caption small{font-size:12px;font-weight:400;color:#666}.tablewrap{overflow-x:auto}table{border-collapse:collapse;width:100%;table-layout:fixed;border:1px solid #999}th,td{border:1px solid #a4a4a4}th{padding:8px 5px;font-size:16px;font-weight:700;letter-spacing:1px;background:#fafafa}td{padding:13px 9px;vertical-align:middle;font-weight:600;height:58px;overflow-wrap:anywhere;line-height:1.55}.seller{width:13%}.item{width:36%}.qty{width:5%}.spec{width:19%}.fee{width:20%}.owner{width:7%}.center{text-align:center}.qtycell{font-size:19px;text-align:center}.specval{font-size:16px}.costrow{display:flex;justify-content:center;align-items:center;gap:7px;flex-wrap:wrap}.costrow select{font-size:17px;font-weight:700;max-width:175px;padding:5px 3px;border-color:transparent;cursor:pointer}.costrow select:hover,.costrow select:focus{border-color:#aaa}.costrow input{width:45px;text-align:center;font-size:18px;font-weight:700;padding:3px 0;border-color:#ddd}.costrow span{font-size:18px}.feestotal{font-size:11px;color:#666;font-weight:400;margin-top:4px;text-align:center}.unset{color:#777}.service{color:#888;font-size:12px;font-weight:400}.foot{display:flex;justify-content:space-between;gap:20px;color:#666;font-size:12px;padding:13px 0;line-height:1.7}.foot label{display:flex;align-items:center;gap:4px}.summary{font-size:14px;color:#333;text-align:right;font-weight:700;margin:3px 0 16px}.source{color:#888;font-size:11px;margin-top:12px}.empty{font-weight:400;text-align:center;padding:65px;color:#777}.empty button{margin-top:15px}.dialog{border:1px solid #aaa;border-radius:7px;max-width:700px;width:90%;padding:24px;box-shadow:0 10px 40px #0002}.dialog::backdrop{background:#0005}.dialog header{display:flex;align-items:center;justify-content:space-between;margin-bottom:15px}.dialog h2{font-size:19px;margin:0}.dialog pre{white-space:pre-wrap;line-height:1.8;max-height:53vh;overflow:auto;font:14px/1.8 'Malgun Gothic',sans-serif;border:1px solid #ddd;padding:15px}.dialog .buttons{justify-content:flex-end;flex-wrap:wrap}.dialog p{font-size:12px;color:#777;line-height:1.6}.rates{display:flex;gap:14px;flex-wrap:wrap;padding:14px 0}.rates label{font-size:13px}.rates input{width:105px}.itemcell{position:relative;padding-right:30px}.removeitem{position:absolute;right:4px;top:50%;transform:translateY(-50%);padding:0 5px;color:#999;border:0;font-size:18px;background:transparent}.removeitem:hover{color:#b33939;background:#fff0f0}.restriction{display:flex;justify-content:center;gap:5px;margin-top:5px}.restriction button{padding:2px 5px;font-size:11px;color:#555}.connectfields label{display:block;font-size:13px;margin:15px 0 5px}.connectfields input{width:100%}.connectfields small{display:block;color:#777;font-size:12px;line-height:1.7;margin:7px 0}.toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:#333;color:#fff;padding:12px 20px;border-radius:5px;display:none;font-size:13px;z-index:10}@media(max-width:1050px){.toolbar{flex-wrap:wrap}table{min-width:1000px}main{padding:0 15px}.caption small{display:none}}@media print{.toolbar,.foot,.source,.dialog,.toast,.summary,.removeitem,.restriction{display:none}main{margin:0;padding:0;max-width:none}table{font-size:11px}th,td{padding:5px}.costrow select{appearance:none;font-size:13px}.costrow input{border:0;font-size:13px}.costrow span{font-size:13px}.feestotal{display:none}th{font-size:13px}.qtycell,.specval{font-size:13px}}
 .toolbar{flex-wrap:wrap}.toolbar .buttons{flex-wrap:wrap}.connectfields .rememberline{display:flex;align-items:center;gap:8px}.connectfields .rememberline input{width:auto}.cjdialog{max-width:1250px;width:96%;max-height:92vh}.cjrecords{max-height:60vh;overflow:auto;padding:2px 8px 4px 0}.cjcard{border:1px solid #ccd3da;border-radius:5px;padding:15px;margin:0 0 14px}.cjcard h3{margin:0 0 12px;font-size:15px}.cjcard h3 small{font-size:12px;font-weight:400;color:#666}.cjgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.cjgrid label{display:flex;flex-direction:column;gap:5px;font-size:12px;color:#444}.cjgrid input,.cjgrid select,.cjgrid textarea{width:100%;min-width:0;border:1px solid #bcc2c8;border-radius:3px;background:white;padding:7px;font-size:14px}.cjwide{grid-column:span 2}.cjgrid [aria-invalid="true"]{border:2px solid #b3261e;background:#fff6f5}.cjerrors{white-space:pre-wrap;color:#b3261e;font-size:13px;max-height:90px;overflow:auto}.cjcard .cjnotice{color:#9a3c00;background:#fff5e8;padding:8px}.cjdialog .cjintro{color:#444;font-size:13px}@media(max-width:700px){.cjgrid{grid-template-columns:repeat(2,minmax(0,1fr))}.cjdialog{padding:15px}.cjwide{grid-column:span 2}}
 .packing-edit{display:block;margin-top:10px;padding:4px 6px;font-size:11px;color:#285583;border-color:#c6d3e1;font-weight:400}.packing-label{font-size:11px;color:#526d8c;font-weight:600;text-align:center;margin-bottom:6px}.shipment-start>td{border-top:2px solid #8292a3}.packingdialog{max-width:900px;max-height:92vh;overflow:auto}.packingdialog .packing-intro{font-size:14px;color:#333}.packing-actions{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}.packing-actions button{padding:7px 10px;font-size:13px}.packing-table{max-height:36vh;overflow:auto;margin-bottom:12px}.packing-table table{min-width:0}.packing-table th{font-size:13px;letter-spacing:0}.packing-table td{font-size:13px;padding:8px;height:auto;font-weight:400}.packing-table th:first-child{width:65%}.packing-table th:nth-child(2){width:10%}.packing-table select{width:100%}.packing-summary{border:1px solid #d5dce3;border-radius:4px;margin-bottom:8px;padding:10px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:13px}.packing-summary strong{color:#285583}.packing-summary span{flex:1;min-width:180px}.packing-summary small{color:#777}.packing-summary button{font-size:11px;padding:3px 6px}@media print{.packing-edit{display:none}.shipment-start>td{border-top:2px solid #666}}
-</style></head><body><main><div class="toolbar"><div class="controls"><label for="company">회사</label><select id="company"><option value="">오딘 + 세광</option><option value="오딘">주식회사 오딘</option><option value="세광">세광가구</option></select><label for="date">출고일</label><input type="date" id="date"><button id="today">오늘</button></div><div class="buttons"><button id="upload">엑셀 불러오기</button><button id="cjexport">CJ 송장용 엑셀 다운로드</button><button id="print">인쇄</button><button class="primary" id="preview">표 이미지 · 텔레그램 전송</button><input id="files" type="file" accept=".xlsx" multiple hidden></div></div><div class="caption"><span id="title">회사명 : 주식회사 오딘 / 택배 / 2026/10/16</span><small>운임과 박스 수량을 선택해 주세요.</small></div><div class="tablewrap"><table><colgroup><col class="seller"><col class="item"><col class="qty"><col class="spec"><col class="fee"><col class="owner"></colgroup><thead><tr><th>판매처명</th><th>품목명</th><th>수량</th><th>규격명</th><th>합 계</th><th>담당</th></tr></thead><tbody id="rows"></tbody></table></div><div class="foot"><label><input type="checkbox" id="services">포장비 · 택배비 행도 보기</label><span>기본 운임을 수정하실 수 있습니다. <button id="ratesbtn" style="padding:3px 7px;font-size:12px">운임표 수정</button></span></div><div class="foot" style="padding-top:0"><span id="excludedcount">제외한 품목 0개</span><span><button id="undo" style="padding:4px 8px;font-size:12px" disabled>마지막 제외 취소</button> <button id="restore" style="padding:4px 8px;font-size:12px" disabled>제외 품목 모두 복원</button> <button id="connectbtn" style="padding:4px 8px;font-size:12px">드라이브 연결 설정</button></span></div><div class="summary" id="summary"></div><div class="source" id="source"></div></main><dialog class="dialog" id="previewdialog"><header><h2>텔레그램으로 보낼 표 이미지</h2><button id="closepreview" aria-label="미리보기 닫기">닫기</button></header><div id="imagewrap" style="max-height:57vh;overflow:auto;background:#f4f4f4;padding:8px"><img id="tableimage" alt="발송할 택배 출고표" style="width:100%;height:auto;display:block"></div><p id="imageinfo"></p><details><summary>텍스트 내용 확인</summary><pre id="message"></pre></details><div class="buttons"><button id="copy">내용 복사</button><button id="download">텍스트 저장</button><button id="saveimage">표 이미지 저장</button><button class="primary" id="sendtelegram">텔레그램 보내기</button></div><p>표를 PNG 원본 이미지 파일로 전송합니다. 수정한 운임·박스 수량과 품목 제외가 반영됩니다. 봇과 택배 그룹방은 n8n에서 지정합니다.</p></dialog><dialog class="dialog" id="ratedialog"><header><h2>운임표 수정</h2><button id="closerates" aria-label="운임표 닫기">닫기</button></header><p>안내해 주신 7가지 기본 운임입니다. 수정한 금액은 이후 선택할 운임에 적용됩니다. 출고 건별로 설정한 금액은 유지됩니다.</p><div id="rates" class="rates"></div><button class="primary" id="saverates">저장</button></dialog><dialog class="dialog" id="connectdialog"><header><h2>드라이브 · 텔레그램 연결 설정</h2><button id="closeconnect">닫기</button></header><p>전체 판매현황 파일을 그대로 사용합니다. 연결 후에는 [엑셀 불러오기] 한 번으로 선택한 날짜의 ‘택배’ 자료를 가져옵니다.</p><div class="connectfields"><label for="folder">판매현황 파일이 있는 드라이브 폴더 주소</label><input id="folder" type="url" placeholder="구글 드라이브 폴더 주소"><label for="endpoint">엑셀 불러오기 연결 주소</label><input id="endpoint" type="url" placeholder="연결 작업 후 입력하는 HTTPS 주소"><label for="sendendpoint">텔레그램 전송 연결 주소</label><input id="sendendpoint" type="url" placeholder="n8n의 전송용 Production URL"><label for="accesskey">접속 암호</label><input id="accesskey" type="password" autocomplete="off" placeholder="n8n Header Auth에 등록한 접속 암호"><label class="rememberline" for="rememberkey"><input id="rememberkey" type="checkbox"> 이 PC에서 접속 암호 기억하기</label><small>체크하고 저장하면 같은 브라우저에서 새로고침·재접속 후에도 유지됩니다. 이 브라우저를 함께 쓰는 사람도 조회·전송할 수 있습니다. 체크하지 않으면 새로고침·탭 닫기 후 지워집니다.</small><button id="clearkey" type="button">저장된 암호 지우기</button><small>폴더 주소만으로는 연결되지 않습니다. n8n의 드라이브 권한과 두 연결 주소를 먼저 설정해야 합니다. 폴더·연결 주소는 이 브라우저에 저장됩니다.</small><p id="connectionstatus">실제 드라이브 연결 전입니다.</p></div><div class="buttons" style="margin-top:20px"><button id="localfile">PC에서 전체 엑셀 선택</button><button class="primary" id="saveconnect">연결 설정 저장</button></div></dialog><dialog class="dialog packingdialog" id="packingdialog"><header><h2 id="packingtitle">포장 나누기</h2><button id="closepacking">닫기</button></header><p class="packing-intro">같이 포장할 제품은 같은 포장 번호를 선택하세요. 따로 보내는 제품은 다른 번호로 나누세요.</p><div class="packing-actions"><button id="splitbyitem">품목별로 나누기</button><button id="addpackage">포장 추가</button><button id="mergepackages">한 묶음으로 합치기</button></div><div class="packing-table"><table><thead><tr><th>제품</th><th>수량</th><th>넣을 포장</th></tr></thead><tbody id="packingrows"></tbody></table></div><div id="packinglist"></div><p>제품 수량은 원본 그대로 유지합니다. 같은 제품을 여러 박스로 보내면 적용 후 해당 포장의 박스 수량을 조정하세요. 포장을 합치면 첫 포장의 운임·박스 수량을 사용합니다. 나누거나 합친 뒤에는 각 포장의 운임·박스 수량을 확인해 주세요.</p><div class="cjerrors" id="packingerror" role="alert"></div><div class="buttons"><button class="primary" id="applypacking">포장 적용</button></div><p>포장 설정은 이 PC·브라우저에 저장됩니다. 표 이미지와 CJ 엑셀에도 동일하게 적용됩니다.</p></dialog><dialog class="dialog cjdialog" id="cjdialog"><header><h2>CJ 송장용 엑셀 확인</h2><button id="closecj">닫기</button></header><p class="cjintro" id="cjcount"></p><p class="cjintro">받는분성명은 규격 앞의 택선/·택착/만 제거합니다. 업체부담·세광부담 문구는 유지합니다. * 항목을 확인해 주세요. 여기서 수정한 내용은 이번 다운로드에만 적용됩니다.</p><p>기본운임은 박스당 운임입니다. 기타연락처·배송메세지1은 필요할 때 입력하세요. 박스타입은 선택한 운임 명칭을 가져옵니다. 대1·대2 등은 실제 로이스 파셀에 등록한 박스타입 명칭에 맞게 수정해 주세요. 빈 기본운임·박스타입은 빈칸으로 내보냅니다.</p><div class="cjrecords" id="cjrecords"></div><div class="cjerrors" id="cjerrors" role="alert"></div><div class="buttons" style="margin-top:15px"><button class="primary" id="downloadcj">확인 후 엑셀 다운로드</button></div><p>포장 묶음별로 한 행씩, 원본과 같은 11개 열·순서로 XLSX 파일을 만듭니다. 로이스 파셀에 실제 업로드하는 작업은 별도로 진행해 주세요.</p></dialog><div id="toast" role="status" class="toast"></div><script src="./vendor/html2canvas-1.4.1.min.js"></script><script>
+.packing-table th{width:120px}.packing-table th:first-child{width:280px}.packing-table th:nth-child(2){width:90px}.packing-table input{width:100%;min-width:70px;text-align:center}.packing-balanced{color:#1b6846;background:#f2faf5}.packing-unbalanced{color:#b3261e;background:#fff1ef}.packing-warning{font-size:12px;color:#b3261e;text-align:center;margin-bottom:6px}
+</style></head><body><main><div class="toolbar"><div class="controls"><label for="company">회사</label><select id="company"><option value="">오딘 + 세광</option><option value="오딘">주식회사 오딘</option><option value="세광">세광가구</option></select><label for="date">출고일</label><input type="date" id="date"><button id="today">오늘</button></div><div class="buttons"><button id="upload">엑셀 불러오기</button><button id="cjexport">CJ 송장용 엑셀 다운로드</button><button id="print">인쇄</button><button class="primary" id="preview">표 이미지 · 텔레그램 전송</button><input id="files" type="file" accept=".xlsx" multiple hidden></div></div><div class="caption"><span id="title">회사명 : 주식회사 오딘 / 택배 / 2026/10/16</span><small>운임과 박스 수량을 선택해 주세요.</small></div><div class="tablewrap"><table><colgroup><col class="seller"><col class="item"><col class="qty"><col class="spec"><col class="fee"><col class="owner"></colgroup><thead><tr><th>판매처명</th><th>품목명</th><th>수량</th><th>규격명</th><th>합 계</th><th>담당</th></tr></thead><tbody id="rows"></tbody></table></div><div class="foot"><label><input type="checkbox" id="services">포장비 · 택배비 행도 보기</label><span>기본 운임을 수정하실 수 있습니다. <button id="ratesbtn" style="padding:3px 7px;font-size:12px">운임표 수정</button></span></div><div class="foot" style="padding-top:0"><span id="excludedcount">제외한 품목 0개</span><span><button id="undo" style="padding:4px 8px;font-size:12px" disabled>마지막 제외 취소</button> <button id="restore" style="padding:4px 8px;font-size:12px" disabled>제외 품목 모두 복원</button> <button id="connectbtn" style="padding:4px 8px;font-size:12px">드라이브 연결 설정</button></span></div><div class="summary" id="summary"></div><div class="source" id="source"></div></main><dialog class="dialog" id="previewdialog"><header><h2>텔레그램으로 보낼 표 이미지</h2><button id="closepreview" aria-label="미리보기 닫기">닫기</button></header><div id="imagewrap" style="max-height:57vh;overflow:auto;background:#f4f4f4;padding:8px"><img id="tableimage" alt="발송할 택배 출고표" style="width:100%;height:auto;display:block"></div><p id="imageinfo"></p><details><summary>텍스트 내용 확인</summary><pre id="message"></pre></details><div class="buttons"><button id="copy">내용 복사</button><button id="download">텍스트 저장</button><button id="saveimage">표 이미지 저장</button><button class="primary" id="sendtelegram">텔레그램 보내기</button></div><p>표를 PNG 원본 이미지 파일로 전송합니다. 수정한 운임·박스 수량과 품목 제외가 반영됩니다. 봇과 택배 그룹방은 n8n에서 지정합니다.</p></dialog><dialog class="dialog" id="ratedialog"><header><h2>운임표 수정</h2><button id="closerates" aria-label="운임표 닫기">닫기</button></header><p>안내해 주신 7가지 기본 운임입니다. 수정한 금액은 이후 선택할 운임에 적용됩니다. 출고 건별로 설정한 금액은 유지됩니다.</p><div id="rates" class="rates"></div><button class="primary" id="saverates">저장</button></dialog><dialog class="dialog" id="connectdialog"><header><h2>드라이브 · 텔레그램 연결 설정</h2><button id="closeconnect">닫기</button></header><p>전체 판매현황 파일을 그대로 사용합니다. 연결 후에는 [엑셀 불러오기] 한 번으로 선택한 날짜의 ‘택배’ 자료를 가져옵니다.</p><div class="connectfields"><label for="folder">판매현황 파일이 있는 드라이브 폴더 주소</label><input id="folder" type="url" placeholder="구글 드라이브 폴더 주소"><label for="endpoint">엑셀 불러오기 연결 주소</label><input id="endpoint" type="url" placeholder="연결 작업 후 입력하는 HTTPS 주소"><label for="sendendpoint">텔레그램 전송 연결 주소</label><input id="sendendpoint" type="url" placeholder="n8n의 전송용 Production URL"><label for="accesskey">접속 암호</label><input id="accesskey" type="password" autocomplete="off" placeholder="n8n Header Auth에 등록한 접속 암호"><label class="rememberline" for="rememberkey"><input id="rememberkey" type="checkbox"> 이 PC에서 접속 암호 기억하기</label><small>체크하고 저장하면 같은 브라우저에서 새로고침·재접속 후에도 유지됩니다. 이 브라우저를 함께 쓰는 사람도 조회·전송할 수 있습니다. 체크하지 않으면 새로고침·탭 닫기 후 지워집니다.</small><button id="clearkey" type="button">저장된 암호 지우기</button><small>폴더 주소만으로는 연결되지 않습니다. n8n의 드라이브 권한과 두 연결 주소를 먼저 설정해야 합니다. 폴더·연결 주소는 이 브라우저에 저장됩니다.</small><p id="connectionstatus">실제 드라이브 연결 전입니다.</p></div><div class="buttons" style="margin-top:20px"><button id="localfile">PC에서 전체 엑셀 선택</button><button class="primary" id="saveconnect">연결 설정 저장</button></div></dialog><dialog class="dialog packingdialog" id="packingdialog"><header><h2 id="packingtitle">포장 나누기</h2><button id="closepacking">닫기</button></header><p class="packing-intro">한 품목도 여러 포장에 수량을 나눌 수 있습니다. [포장 추가]를 누르고 각 포장 칸에 제품 수량을 입력하세요. 예: 의자 6개 → 포장 1에 4개 + 포장 2에 2개.</p><div class="packing-actions"><button id="splitbyitem">품목별로 나누기</button><button id="addpackage">포장 추가</button><button id="mergepackages">한 묶음으로 합치기</button></div><div class="packing-table"><table><thead><tr id="packinghead"></tr></thead><tbody id="packingrows"></tbody></table></div><div id="packinglist"></div><p>배분 합계가 원본 수량과 같아야 적용됩니다. 제품 수량과 박스 수량은 다릅니다. 예: 의자 4개를 담은 한 박스라면 여기에는 4개, 표의 박스 수량에는 1박스를 입력하세요. 각 포장의 운임은 적용 후 표에서 따로 지정합니다. 포장을 삭제하면 그 제품 수량은 포장 1로 이동하며, 한 묶음으로 합치면 첫 포장의 운임·박스 수량을 사용합니다.</p><div class="cjerrors" id="packingerror" role="alert"></div><div class="buttons"><button class="primary" id="applypacking">포장 적용</button></div><p>포장 설정은 이 PC·브라우저에 저장됩니다. 표 이미지와 CJ 엑셀에도 동일하게 적용됩니다.</p></dialog><dialog class="dialog cjdialog" id="cjdialog"><header><h2>CJ 송장용 엑셀 확인</h2><button id="closecj">닫기</button></header><p class="cjintro" id="cjcount"></p><p class="cjintro">받는분성명은 규격 앞의 택선/·택착/만 제거합니다. 업체부담·세광부담 문구는 유지합니다. * 항목을 확인해 주세요. 여기서 수정한 내용은 이번 다운로드에만 적용됩니다.</p><p>기본운임은 박스당 운임입니다. 기타연락처·배송메세지1은 필요할 때 입력하세요. 박스타입은 선택한 운임 명칭을 가져옵니다. 대1·대2 등은 실제 로이스 파셀에 등록한 박스타입 명칭에 맞게 수정해 주세요. 빈 기본운임·박스타입은 빈칸으로 내보냅니다.</p><div class="cjrecords" id="cjrecords"></div><div class="cjerrors" id="cjerrors" role="alert"></div><div class="buttons" style="margin-top:15px"><button class="primary" id="downloadcj">확인 후 엑셀 다운로드</button></div><p>포장 묶음별로 한 행씩, 원본과 같은 11개 열·순서로 XLSX 파일을 만듭니다. 로이스 파셀에 실제 업로드하는 작업은 별도로 진행해 주세요.</p></dialog><div id="toast" role="status" class="toast"></div><script src="./vendor/html2canvas-1.4.1.min.js"></script><script>
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),won=n=>Number(n).toLocaleString('ko-KR');let raw=[],groups=[],visible=[],settings={},tariffs=[{name:'극소',rate:2990},{name:'소',rate:3480},{name:'중',rate:4370},{name:'대1',rate:5450},{name:'대2',rate:5600},{name:'이형',rate:13000},{name:'취급제한',rate:17000}];try{settings=JSON.parse(localStorage.getItem('parcel-table-v2')||'{}');tariffs=JSON.parse(localStorage.getItem('parcel-tariffs-v3')||'null')||tariffs}catch{}const service=r=>/^(포장비|택배비|운임선불|운임착불)/.test(r.item.trim());function toast(t){$('#toast').textContent=t;$('#toast').style.display='block';clearTimeout(window.tt);window.tt=setTimeout(()=>$('#toast').style.display='none',3500)}function save(){try{localStorage.setItem('parcel-table-v2',JSON.stringify(settings))}catch{toast('이 브라우저에 임시 저장할 수 없습니다.')}}
 function build(){let m=new Map();for(let r of raw){if(r.project.trim()!=='택배')continue;let voucher=r.line.replace(/-\d+\s*$/,'').trim()||'행 '+r.row,key=JSON.stringify([r.company,r.date,r.customer,voucher]);if(!m.has(key))m.set(key,{key,company:r.company,date:r.date,customer:r.customer,voucher,rows:[]});m.get(key).rows.push(r)}groups=[...m.values()];for(let g of groups)if(!settings[g.key])settings[g.key]={name:'',rate:0,boxes:1};render()}
 function title(){return `회사명 : ${$('#company').value==='오딘'?'주식회사 오딘':$('#company').value==='세광'?'세광가구':'오딘 + 세광'} / 택배 / ${$('#date').value.replaceAll('-','/')}`}
@@ -33,108 +34,153 @@ function compareParcelGroups(a, b) {
 let packingPlans = {};
 try { const saved = JSON.parse(localStorage.getItem('parcel-packing-v1') || '{}'); if (saved && typeof saved === 'object' && !Array.isArray(saved)) packingPlans = saved; } catch {}
 let packingEditor = null;
-function packageKey(baseKey, id) { return JSON.stringify([baseKey, '포장', id]); }
+function packageKey(baseKey,id) { return JSON.stringify([baseKey,'포장',id]); }
+function quantityNumber(value) { return Number(String(value ?? '').replaceAll(',','').trim()); }
+function quantitiesMatch(first,second) { return Number.isFinite(first) && Number.isFinite(second) && Math.abs(first-second) < 1e-8; }
+function allocationsForRow(group,row,plan,ids) {
+  const key=rowKey(group,row),saved=plan?.allocations?.[key];
+  if(saved && typeof saved==='object')return Object.fromEntries(ids.map(id=>[id,quantityNumber(saved[id] ?? 0)]));
+  const old=plan?.assignments?.[key],id=ids.includes(old)?old:ids[0];
+  return Object.fromEntries(ids.map(value=>[value,value===id?quantityNumber(row.qty):0]));
+}
+function validatePackingQuantities(edit) {
+  const issues=[];
+  edit.rows.forEach((row,index)=>{
+    const total=quantityNumber(row.qty),allocation=edit.allocations[rowKey(edit.group,row)] || {},values=edit.ids.map(id=>quantityNumber(allocation[id] ?? 0));
+    if(!Number.isFinite(total)||total<=0){issues.push({row:index,message:`${row.item}: 0보다 큰 원본 수량이 있어야 포장을 나눌 수 있습니다.`});return;}
+    if(values.some(value=>!Number.isFinite(value)||value<0)){issues.push({row:index,message:`${row.item}: 포장 수량은 0 이상의 숫자로 입력해 주세요.`});return;}
+    const sum=values.reduce((a,b)=>a+b,0);
+    if(!quantitiesMatch(sum,total))issues.push({row:index,message:`${row.item}: 원본 ${total}개, 배분 ${Number(sum.toFixed(8))}개입니다. 합계가 같아야 합니다.`});
+  });
+  return issues;
+}
 function expandPackingGroup(group) {
-  const plan = packingPlans[group.key];
-  if (!plan || !Array.isArray(plan.ids) || plan.ids.length < 2) return [{...group,baseKey:group.key,packageNumber:1,packageCount:1}];
-  const ids = [...new Set(plan.ids.map(String))];
-  const mapped = ids.map((id,index) => {
-    const key = packageKey(group.key,id);
-    if (!settings[key]) settings[key] = index === 0 ? {...settings[group.key]} : {name:'',rate:0,boxes:1};
-    const rows = group.rows.filter(row => {
-      const selected = service(row) ? ids[0] : plan.assignments?.[rowKey(group,row)];
-      return (ids.includes(selected) ? selected : ids[0]) === id;
+  const plan=packingPlans[group.key];
+  if(!plan||!Array.isArray(plan.ids)||plan.ids.length<2)return [{...group,baseKey:group.key,packageNumber:1,packageCount:1}];
+  const ids=[...new Set(plan.ids.map(String))],physical=group.rows.filter(row=>!service(row));
+  const allocations=Object.fromEntries(physical.map(row=>[rowKey(group,row),allocationsForRow(group,row,plan,ids)]));
+  if(validatePackingQuantities({group,rows:physical,ids,allocations}).length){
+    const key=packageKey(group.key,'quantity-review');settings[key]={name:'',rate:0,boxes:1};
+    return [{...group,key,baseKey:group.key,packageNumber:1,packageCount:ids.length,packingError:true}];
+  }
+  return ids.map((id,index)=>{
+    const key=packageKey(group.key,id);
+    if(!settings[key])settings[key]=index===0?{...settings[group.key]}:{name:'',rate:0,boxes:1};
+    const rows=group.rows.flatMap(row=>{
+      if(service(row))return index===0?[row]:[];
+      const amount=allocations[rowKey(group,row)]?.[id] || 0;
+      return amount>0?[{...row,qty:String(amount),originalQty:row.qty}]:[];
     });
     return {...group,key,baseKey:group.key,rows,deliveryFallbackRows:group.rows,packageNumber:index+1,packageCount:ids.length};
-  });
-  return mapped.filter(group => group.rows.length);
+  }).filter(group=>group.rows.length);
 }
 function packageConfig(id) {
-  if (!packingEditor) return {name:'',rate:0,boxes:1};
-  const saved = settings[packageKey(packingEditor.baseKey,id)];
-  return saved || (id === packingEditor.ids[0] ? settings[packingEditor.baseKey] : null) || {name:'',rate:0,boxes:1};
+  if(!packingEditor)return {name:'',rate:0,boxes:1};
+  return settings[packageKey(packingEditor.baseKey,id)] || (id===packingEditor.ids[0]?settings[packingEditor.baseKey]:null) || {name:'',rate:0,boxes:1};
 }
 function newPackageId() { return 'p'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,9); }
 function openPacking(baseKey) {
-  const group = groups.find(g => g.key === baseKey);
-  if (!group) return toast('출고 건을 찾지 못했습니다. 자료를 다시 불러와 주세요.');
-  const rows = activeRows(group).filter(row => !service(row));
-  if (!rows.length) return toast('나눌 제품이 없습니다.');
-  const plan = packingPlans[baseKey];
-  const ids = plan?.ids?.length > 1 ? [...plan.ids] : [newPackageId()];
-  const assignments = {...(plan?.assignments || {})};
-  for (const row of rows) if (!ids.includes(assignments[rowKey(group,row)])) assignments[rowKey(group,row)] = ids[0];
-  packingEditor = {baseKey,group,rows,ids,assignments};
-  renderPackingEditor();
-  $('#packingdialog').showModal();
+  const group=groups.find(g=>g.key===baseKey);
+  if(!group)return toast('출고 건을 찾지 못했습니다. 자료를 다시 불러와 주세요.');
+  const rows=activeRows(group).filter(row=>!service(row));
+  if(!rows.length)return toast('나눌 제품이 없습니다.');
+  const plan=packingPlans[baseKey],ids=plan?.ids?.length>1?[...plan.ids]:[newPackageId()];
+  const allocations=Object.fromEntries(rows.map(row=>[rowKey(group,row),allocationsForRow(group,row,plan,ids)]));
+  packingEditor={baseKey,group,rows,ids,allocations};
+  renderPackingEditor();$('#packingdialog').showModal();
 }
 function renderPackingEditor() {
-  const edit = packingEditor;
-  $('#packingtitle').textContent = `[${edit.group.company}] ${edit.group.customer} · 포장 나누기`;
-  $('#packingrows').innerHTML = edit.rows.map((row,index) => `<tr><td>${esc(row.item)}</td><td class="center">${esc(row.qty)}</td><td><select data-pack-row="${index}" aria-label="${esc(row.item)} 포장 선택">${edit.ids.map((id,i)=>`<option value="${esc(id)}" ${edit.assignments[rowKey(edit.group,row)]===id?'selected':''}>포장 ${i+1}</option>`).join('')}</select></td></tr>`).join('');
-  $('#packinglist').innerHTML = edit.ids.map((id,i) => {
-    const rows = edit.rows.filter(row => edit.assignments[rowKey(edit.group,row)] === id), config = packageConfig(id);
-    return `<div class="packing-summary"><strong>포장 ${i+1}</strong><span>${rows.length ? rows.map(row=>esc(row.item)).join(' + ') : '제품을 배정해 주세요.'}</span><small>${config.rate>0?'현재 운임: '+esc(config.name)+' '+won(config.rate)+'원 × '+config.boxes:'운임 미설정'}</small>${i>0?`<button data-delete-package="${esc(id)}">이 포장 삭제</button>`:''}</div>`;
+  const edit=packingEditor;
+  $('#packingtitle').textContent=`[${edit.group.company}] ${edit.group.customer} · 포장별 수량 나누기`;
+  $('#packinghead').innerHTML=`<th>제품</th><th>원본 수량</th>${edit.ids.map((id,i)=>`<th>포장 ${i+1}</th>`).join('')}<th>배분 합계</th>`;
+  $('#packingrows').innerHTML=edit.rows.map((row,index)=>{
+    const total=quantityNumber(row.qty),allocation=edit.allocations[rowKey(edit.group,row)];
+    return `<tr><td>${esc(row.item)}</td><td class="center">${esc(row.qty)}</td>${edit.ids.map((id,i)=>`<td><input type="number" min="0" step="any" value="${esc(allocation[id] ?? 0)}" data-pack-row="${index}" data-pack-id="${esc(id)}" aria-label="${esc(row.item)} 포장 ${i+1} 제품 수량"></td>`).join('')}<td class="center" id="packtotal-${index}"></td></tr>`;
   }).join('');
-  $('#addpackage').disabled = edit.ids.length >= edit.rows.length;
-  $('#packingerror').textContent = '';
+  const table=$('#packingrows').closest?.('table');
+  if(table)table.style.minWidth=Math.max(680,490+edit.ids.length*120)+'px';
+  $('#addpackage').disabled=false;
+  $('#packingerror').textContent='';refreshPackingSummary();
 }
-$('#rows').addEventListener('click',event => {
-  const button = event.target.closest('[data-packing]');
-  if (button) openPacking(button.dataset.packing);
-});
-$('#closepacking').onclick = () => $('#packingdialog').close();
-$('#packingrows').addEventListener('change', event => {
-  const index = event.target.dataset.packRow;
-  if (index == null) return;
-  const edit = packingEditor;
-  edit.assignments[rowKey(edit.group,edit.rows[Number(index)])] = event.target.value;
+function refreshPackingSummary() {
+  const edit=packingEditor;
+  edit.rows.forEach((row,index)=>{
+    const values=edit.ids.map(id=>quantityNumber(edit.allocations[rowKey(edit.group,row)][id] ?? 0)),sum=values.reduce((a,b)=>a+b,0),valid=values.every(value=>Number.isFinite(value)&&value>=0)&&quantitiesMatch(sum,quantityNumber(row.qty));
+    const cell=$(`#packtotal-${index}`);
+    if(cell){cell.textContent=Number.isFinite(sum)?Number(sum.toFixed(8))+' / '+row.qty:'수량 확인';cell.className='center '+(valid?'packing-balanced':'packing-unbalanced');}
+  });
+  $('#packinglist').innerHTML=edit.ids.map((id,i)=>{
+    const items=edit.rows.filter(row=>quantityNumber(edit.allocations[rowKey(edit.group,row)][id])>0),config=packageConfig(id);
+    return `<div class="packing-summary"><strong>포장 ${i+1}</strong><span>${items.length?items.map(row=>esc(row.item)+' × '+esc(edit.allocations[rowKey(edit.group,row)][id])).join(' + '):'제품 수량을 입력해 주세요.'}</span><small>${config.rate>0?'현재 운임: '+esc(config.name)+' '+won(config.rate)+'원 × '+config.boxes+'박스':'운임 미설정'}</small>${i>0?`<button data-delete-package="${esc(id)}">이 포장 삭제</button>`:''}</div>`;
+  }).join('');
+}
+$('#rows').addEventListener('click',event=>{const button=event.target.closest('[data-packing]');if(button)openPacking(button.dataset.packing);});
+$('#closepacking').onclick=()=>$('#packingdialog').close();
+function updatePackingQuantity(event) {
+  const el=event.target,index=el.dataset.packRow,id=el.dataset.packId;
+  if(index==null||!id)return;
+  const edit=packingEditor;
+  edit.allocations[rowKey(edit.group,edit.rows[Number(index)])][id]=el.value===''?'':el.value;
+  $('#packingerror').textContent='';refreshPackingSummary();
+}
+$('#packingrows').addEventListener('input',updatePackingQuantity);
+$('#packingrows').addEventListener('change',updatePackingQuantity);
+$('#addpackage').onclick=()=>{
+  const edit=packingEditor,id=newPackageId();edit.ids.push(id);
+  edit.rows.forEach(row=>edit.allocations[rowKey(edit.group,row)][id]=0);
   renderPackingEditor();
-});
-$('#addpackage').onclick = () => {
-  if (packingEditor.ids.length >= packingEditor.rows.length) return;
-  packingEditor.ids.push(newPackageId());renderPackingEditor();
 };
-$('#splitbyitem').onclick = () => {
-  const edit = packingEditor, first = edit.ids[0];
-  edit.ids = edit.rows.map((row,index) => index === 0 ? first : newPackageId());
-  edit.rows.forEach((row,index)=>edit.assignments[rowKey(edit.group,row)]=edit.ids[index]);
+$('#splitbyitem').onclick=()=>{
+  const edit=packingEditor,first=edit.ids[0];
+  edit.ids=edit.rows.map((row,i)=>i===0?first:newPackageId());
+  edit.rows.forEach((row,i)=>edit.allocations[rowKey(edit.group,row)]=Object.fromEntries(edit.ids.map((id,j)=>[id,i===j?quantityNumber(row.qty):0])));
   renderPackingEditor();
 };
-$('#mergepackages').onclick = () => {
-  const edit = packingEditor;edit.ids=[edit.ids[0]];
-  edit.rows.forEach(row=>edit.assignments[rowKey(edit.group,row)]=edit.ids[0]);
+$('#mergepackages').onclick=()=>{
+  const edit=packingEditor;edit.ids=[edit.ids[0]];
+  edit.rows.forEach(row=>edit.allocations[rowKey(edit.group,row)]={[edit.ids[0]]:quantityNumber(row.qty)});
   renderPackingEditor();
 };
 $('#packinglist').addEventListener('click',event=>{
   const button=event.target.closest('[data-delete-package]');if(!button)return;
   const edit=packingEditor,id=button.dataset.deletePackage;
-  edit.ids=edit.ids.filter(value=>value!==id);
-  for(const key of Object.keys(edit.assignments))if(edit.assignments[key]===id)edit.assignments[key]=edit.ids[0];
-  renderPackingEditor();
+  if(id===edit.ids[0])return;
+  edit.rows.forEach(row=>{const allocation=edit.allocations[rowKey(edit.group,row)];allocation[edit.ids[0]]=quantityNumber(allocation[edit.ids[0]] ?? 0)+quantityNumber(allocation[id] ?? 0);delete allocation[id];});
+  edit.ids=edit.ids.filter(value=>value!==id);renderPackingEditor();
 });
 function applyPackingEditor() {
-  const edit=packingEditor;
-  if (!edit) return false;
-  const empty=edit.ids.findIndex(id=>!edit.rows.some(row=>edit.assignments[rowKey(edit.group,row)]===id));
-  if(empty>=0){$('#packingerror').textContent=`포장 ${empty+1}에 제품이 없습니다. 제품을 배정하거나 이 포장을 삭제해 주세요.`;return false;}
+  const edit=packingEditor;if(!edit)return false;
+  const problems=validatePackingQuantities(edit);
+  if(problems.length){$('#packingerror').textContent=problems.map(issue=>issue.message).join('\n');return false;}
+  const empty=edit.ids.findIndex(id=>!edit.rows.some(row=>quantityNumber(edit.allocations[rowKey(edit.group,row)][id])>0));
+  if(empty>=0){$('#packingerror').textContent=`포장 ${empty+1}에 제품이 없습니다. 수량을 입력하거나 이 포장을 삭제해 주세요.`;return false;}
   const nextPlans={...packingPlans},nextSettings={...settings};
   if(edit.ids.length===1){nextSettings[edit.baseKey]={...packageConfig(edit.ids[0])};delete nextPlans[edit.baseKey];}
   else{
-    nextPlans[edit.baseKey]={ids:[...edit.ids],assignments:{...edit.assignments}};
+    // Keep allocations for excluded products so restoring a product retains its packing.
+    const old=packingPlans[edit.baseKey],allocations={};
+    for(const row of edit.group.rows.filter(row=>!service(row))){
+      const key=rowKey(edit.group,row);
+      let values=edit.allocations[key];
+      if(!values){
+        const oldIds=old?.ids?.length?old.ids:edit.ids,previous=allocationsForRow(edit.group,row,old,oldIds);
+        values=Object.fromEntries(edit.ids.map(id=>[id,previous[id] ?? 0]));
+        for(const id of oldIds)if(!edit.ids.includes(id))values[edit.ids[0]]+=quantityNumber(previous[id] ?? 0);
+      }
+      allocations[key]=Object.fromEntries(edit.ids.map(id=>[id,quantityNumber(values[id] ?? 0)]));
+    }
+    nextPlans[edit.baseKey]={version:2,ids:[...edit.ids],allocations};
     edit.ids.forEach(id=>nextSettings[packageKey(edit.baseKey,id)]={...packageConfig(id)});
   }
-  try{
-    localStorage.setItem('parcel-table-v2',JSON.stringify(nextSettings));
-    localStorage.setItem('parcel-packing-v1',JSON.stringify(nextPlans));
-  }catch{ $('#packingerror').textContent='포장 설정을 저장할 수 없습니다. 브라우저 저장소 설정을 확인해 주세요.';return false; }
-  settings=nextSettings;packingPlans=nextPlans;
-  $('#packingdialog').close();render();toast('포장을 적용했습니다. 각 포장의 운임과 박스 수량을 확인해 주세요.');return true;
+  try{localStorage.setItem('parcel-table-v2',JSON.stringify(nextSettings));localStorage.setItem('parcel-packing-v1',JSON.stringify(nextPlans));}
+  catch{$('#packingerror').textContent='포장 설정을 저장할 수 없습니다. 브라우저 저장소 설정을 확인해 주세요.';return false;}
+  settings=nextSettings;packingPlans=nextPlans;$('#packingdialog').close();render();toast('포장별 수량을 적용했습니다. 각 포장의 운임과 박스 수량을 확인해 주세요.');return true;
 }
 $('#applypacking').onclick=applyPackingEditor;
+
 function tariffControls(group) {
   const config=settings[group.key];
-  return `${group.packageCount>1?`<div class="packing-label">포장 ${group.packageNumber}</div>`:''}<div class="costrow"><select data-act="tariff" aria-label="${esc(group.customer)} 포장 ${group.packageNumber} 운임"><option value="" ${!config.name?'selected':''}>운임 선택</option>${tariffs.map((tariff,k)=>`<option value="${k}" ${tariff.name===config.name&&tariff.rate===config.rate?'selected':''}>(${esc(tariff.name)})${won(tariff.rate)}</option>`).join('')}${config.name&&!tariffs.some(tariff=>tariff.name===config.name&&tariff.rate===config.rate)?`<option value="saved" selected>(${esc(config.name)})${won(config.rate)}</option>`:''}<option value="custom">직접 입력</option></select><span>×</span><input data-act="boxes" type="number" min="1" max="9999" value="${config.boxes}" aria-label="${esc(group.customer)} 포장 ${group.packageNumber} 박스 수량"></div>${config.name==='취급제한'?'<div class="restriction"><button data-limit="20000">20,000원</button><button data-limit="24000">24,000원</button><button data-limit="custom">개별 수정</button></div>':''}<div class="feestotal">${config.rate>0?won(config.rate*config.boxes)+'원 / '+config.boxes+'박스':'박스당 운임을 선택해 주세요.'}</div>`;
+  return `${group.packingError?'<div class="packing-warning">원본 수량 변경 · 포장 재확인</div>':group.packageCount>1?`<div class="packing-label">포장 ${group.packageNumber}</div>`:''}<div class="costrow"><select data-act="tariff" aria-label="${esc(group.customer)} 포장 ${group.packageNumber} 운임"><option value="" ${!config.name?'selected':''}>운임 선택</option>${tariffs.map((tariff,k)=>`<option value="${k}" ${tariff.name===config.name&&tariff.rate===config.rate?'selected':''}>(${esc(tariff.name)})${won(tariff.rate)}</option>`).join('')}${config.name&&!tariffs.some(tariff=>tariff.name===config.name&&tariff.rate===config.rate)?`<option value="saved" selected>(${esc(config.name)})${won(config.rate)}</option>`:''}<option value="custom">직접 입력</option></select><span>×</span><input data-act="boxes" type="number" min="1" max="9999" value="${config.boxes}" aria-label="${esc(group.customer)} 포장 ${group.packageNumber} 박스 수량"></div>${config.name==='취급제한'?'<div class="restriction"><button data-limit="20000">20,000원</button><button data-limit="24000">24,000원</button><button data-limit="custom">개별 수정</button></div>':''}<div class="feestotal">${config.rate>0?won(config.rate*config.boxes)+'원 / '+config.boxes+'박스':'박스당 운임을 선택해 주세요.'}</div>`;
 }
 function render() {
   const source=groups.filter(g=>g.date===$('#date').value&&(!$('#company').value||g.company===$('#company').value)).map(g=>({...g,rows:activeRows(g)})).filter(g=>g.rows.some(r=>!service(r))||($('#services').checked&&g.rows.length)).sort(compareParcelGroups);
@@ -147,7 +193,7 @@ function render() {
     const packages=visible.filter(g=>g.baseKey===group.baseKey);
     const totalRows=packages.reduce((sum,g)=>sum+g.rows.filter(row=>$('#services').checked||!service(row)).length,0);
     const specs=[...new Set(group.rows.map(row=>row.spec).filter(Boolean))].join('\n'),owners=[...new Set(group.rows.map(row=>row.owner).filter(Boolean))].join(', ');
-    return items.map((row,j)=>`<tr data-index="${index}" class="${firstPackage&&j===0?'shipment-start':''}">${firstPackage&&j===0?`<td rowspan="${totalRows}">${!$('#company').value?'<small style="display:block;color:#777;font-size:11px">'+esc(group.company)+'</small>':''}${esc(group.customer)}<button class="packing-edit" data-packing="${esc(group.baseKey)}">${packages.length>1?'포장 수정 ('+packages.length+'묶음)':'포장 나누기'}</button></td>`:''}<td class="itemcell ${service(row)?'service':''}">${esc(row.item)}<button class="removeitem" data-remove="${esc(rowKey(group,row))}" aria-label="품목 제외: ${esc(row.item)}" title="이 품목을 표에서 제외">×</button></td><td class="qtycell ${service(row)?'service':''}">${esc(row.qty)}</td>${j===0?`<td class="center specval" rowspan="${items.length}" style="white-space:pre-line">${esc(specs)}</td><td rowspan="${items.length}">${tariffControls(group)}</td><td class="center" rowspan="${items.length}">${esc(owners)}</td>`:''}</tr>`).join('');
+    return items.map((row,j)=>`<tr data-index="${index}" class="${firstPackage&&j===0?'shipment-start':''}">${firstPackage&&j===0?`<td rowspan="${totalRows}">${!$('#company').value?'<small style="display:block;color:#777;font-size:11px">'+esc(group.company)+'</small>':''}${esc(group.customer)}<button class="packing-edit" data-packing="${esc(group.baseKey)}">${group.packageCount>1?'포장 수정 ('+packages.length+'묶음)':'포장 나누기'}</button></td>`:''}<td class="itemcell ${service(row)?'service':''}">${esc(row.item)}<button class="removeitem" data-remove="${esc(rowKey(group,row))}" aria-label="품목 전체 제외: ${esc(row.item)}" title="이 품목 전체를 모든 포장에서 제외">×</button></td><td class="qtycell ${service(row)?'service':''}">${esc(row.qty)}</td>${j===0?`<td class="center specval" rowspan="${items.length}" style="white-space:pre-line">${esc(specs)}</td><td rowspan="${items.length}">${tariffControls(group)}</td><td class="center" rowspan="${items.length}">${esc(owners)}</td>`:''}</tr>`).join('');
   }).join(''):'<tr><td colspan="6" class="empty">이 날짜에 표시할 택배 출고 내역이 없습니다.<br><button id="latest">최근 택배 출고일로 보기</button></td></tr>';
   summary();updateExcluded();
   if($('#latest'))$('#latest').onclick=()=>{const dates=groups.filter(g=>!$('#company').value||g.company===$('#company').value).map(g=>g.date).sort();if(dates.length){$('#date').value=dates.at(-1);render();}};
@@ -164,7 +210,7 @@ $('#rows').addEventListener('change',e=>{let act=e.target.dataset.act;if(!act)re
 function message(){return title()+'\n\n'+visible.map((g,i)=>{let c=settings[g.key];return `${i+1}. ${!$('#company').value?'['+g.company+'] ':''}${g.customer}${g.packageCount>1?' · 포장 '+g.packageNumber:''}\n`+g.rows.filter(r=>!service(r)).map(r=>`· ${r.item} × ${r.qty}`).join('\n')+'\n'+[...new Set(g.rows.map(r=>r.spec).filter(Boolean))].join(' / ')+`\n${c.rate>0?'('+c.name+')'+won(c.rate)+' × '+c.boxes+' = '+won(c.rate*c.boxes)+'원':'운임 미설정'}\n담당: `+[...new Set(g.rows.map(r=>r.owner).filter(Boolean))].join(', ')}).join('\n\n')+'\n\n'+$('#summary').textContent}
 let imageBlob=null,imageUrl='',imageFingerprint='',sending=false,imageWidth=0,imageHeight=0;const pendingSends=new Map();
 async function makeTableImage(){if(!visible.length)throw Error('표시된 출고 건이 없습니다.');if(typeof html2canvas!=='function')throw Error('이미지 모듈을 불러오지 못했습니다.');if(document.fonts?.ready)await document.fonts.ready;const root=document.createElement('div'),sourceTable=document.querySelector('.tablewrap table'),width=Math.ceil(sourceTable.getBoundingClientRect().width);root.style.cssText='position:absolute;left:0;top:0;z-index:-99999;background:white;color:#171717;padding:24px;box-sizing:content-box;width:'+width+'px;';let heading=document.createElement('div');heading.style.cssText='font-size:17px;font-weight:700;margin-bottom:10px';heading.textContent=title();root.append(heading);let table=sourceTable.cloneNode(true);table.style.width='100%';table.querySelectorAll('.removeitem,.restriction,.feestotal,.packing-edit').forEach(e=>e.remove());table.querySelectorAll('select').forEach(e=>{let span=document.createElement('span');span.textContent=e.selectedOptions[0]?.textContent||'';span.style.cssText='font-size:17px;font-weight:bold';e.replaceWith(span)});table.querySelectorAll('input').forEach(e=>{let span=document.createElement('span');span.textContent=e.value;span.style.cssText='font-size:18px;font-weight:bold;min-width:20px;text-align:center';e.replaceWith(span)});root.append(table);let total=document.createElement('div');total.textContent=$('#summary').textContent;total.style.cssText='font-size:13px;font-weight:bold;text-align:right;margin-top:12px';root.append(total);document.body.append(root);try{const height=Math.ceil(root.getBoundingClientRect().height),scale=height*2>24000?1:2;if(height*scale>30000)throw Error('표가 너무 깁니다. 회사를 나누어 보내 주세요.');const canvas=await html2canvas(root,{backgroundColor:'#fff',scale,logging:false,windowWidth:Math.max(window.innerWidth,width+48),scrollX:0,scrollY:0});imageWidth=canvas.width;imageHeight=canvas.height;return await new Promise((resolve,reject)=>canvas.toBlob(b=>b?resolve(b):reject(Error('이미지를 생성하지 못했습니다.')),'image/png'))}finally{root.remove()}}
-$('#preview').onclick=async()=>{if(!visible.length)return toast('표시된 출고 건이 없습니다.');let missing=visible.some(g=>!settings[g.key].rate);$('#preview').disabled=true;try{imageBlob=await makeTableImage();if(imageBlob.size>8*1024*1024)throw Error('이미지가 8MB를 초과합니다. 회사를 나누어 보내 주세요.');if(imageUrl)URL.revokeObjectURL(imageUrl);imageUrl=URL.createObjectURL(imageBlob);$('#tableimage').src=imageUrl;$('#message').textContent=message();imageFingerprint=JSON.stringify([title(),visible.map(g=>({key:g.key,rows:g.rows.map(r=>({line:r.line,item:r.item,qty:r.qty,spec:r.spec,owner:r.owner})),settings:settings[g.key]}))]);$('#imageinfo').textContent=(missing?'운임 미설정 건이 있습니다. 확인 후 보내 주세요. · ':'')+'PNG 원본 '+imageWidth+' × '+imageHeight+'px · '+Math.ceil(imageBlob.size/1024)+'KB';$('#previewdialog').showModal()}catch(err){toast(err.message)}finally{$('#preview').disabled=false}};
+$('#preview').onclick=async()=>{if(visible.some(g=>g.packingError))return toast('원본 수량이 바뀐 출고 건의 포장 나누기를 먼저 확인해 주세요.');if(!visible.length)return toast('표시된 출고 건이 없습니다.');let missing=visible.some(g=>!settings[g.key].rate);$('#preview').disabled=true;try{imageBlob=await makeTableImage();if(imageBlob.size>8*1024*1024)throw Error('이미지가 8MB를 초과합니다. 회사를 나누어 보내 주세요.');if(imageUrl)URL.revokeObjectURL(imageUrl);imageUrl=URL.createObjectURL(imageBlob);$('#tableimage').src=imageUrl;$('#message').textContent=message();imageFingerprint=JSON.stringify([title(),visible.map(g=>({key:g.key,rows:g.rows.map(r=>({line:r.line,item:r.item,qty:r.qty,spec:r.spec,owner:r.owner})),settings:settings[g.key]}))]);$('#imageinfo').textContent=(missing?'운임 미설정 건이 있습니다. 확인 후 보내 주세요. · ':'')+'PNG 원본 '+imageWidth+' × '+imageHeight+'px · '+Math.ceil(imageBlob.size/1024)+'KB';$('#previewdialog').showModal()}catch(err){toast(err.message)}finally{$('#preview').disabled=false}};
 $('#saveimage').onclick=()=>{if(!imageUrl)return;let a=document.createElement('a');a.href=imageUrl;a.download='택배출고표_'+$('#date').value+'.png';a.click()};
 function blobBase64(blob){return new Promise((resolve,reject)=>{let r=new FileReader();r.onload=()=>resolve(String(r.result).split(',')[1]);r.onerror=()=>reject(Error('이미지 읽기 실패'));r.readAsDataURL(blob)})}
 $('#sendtelegram').onclick=async()=>{if(sending||!imageBlob)return;if(!connection.sendendpoint||!accessKey){$('#previewdialog').close();openConnect();return}if(visible.some(g=>!settings[g.key].rate))return toast('운임 미설정 건을 먼저 확인해 주세요.');let state=pendingSends.get(imageFingerprint);if(state&&!confirm(state==='sent'?'이미 전송한 표입니다. 다시 전송하시겠습니까?':'이전 전송의 성공 여부가 확인되지 않았습니다. 그룹방을 먼저 확인하셨습니까? 재전송하시겠습니까?'))return;let headers;try{headers=authHeaders()}catch(err){return toast(err.message)}sending=true;$('#sendtelegram').disabled=true;$('#sendtelegram').textContent='전송 중…';let controller=new AbortController(),timer=setTimeout(()=>controller.abort(),60000);pendingSends.set(imageFingerprint,'unknown');try{let base64=await blobBase64(imageBlob),res=await fetch(connection.sendendpoint,{method:'POST',headers,body:JSON.stringify({date:$('#date').value,company:$('#company').value,title:title(),fileName:'parcel_'+$('#date').value+'.png',mimeType:'image/png',imageBase64:base64,requestId:crypto.randomUUID()}),signal:controller.signal,credentials:'omit'});let data=await res.json();if(!res.ok||data.ok!==true||!data.messageId)throw Error(data.error||'전송 완료 응답을 확인하지 못했습니다.');pendingSends.set(imageFingerprint,'sent');toast('택배 그룹방으로 전송했습니다.');$('#imageinfo').textContent='전송 완료 · 메시지 '+data.messageId}catch(err){toast('전송 결과 확인 필요: '+(err.name==='AbortError'?'응답 시간 초과':err.message)+'. 그룹방을 확인한 뒤 다시 시도해 주세요.')}finally{clearTimeout(timer);sending=false;$('#sendtelegram').disabled=false;$('#sendtelegram').textContent='텔레그램 보내기'}};
@@ -269,6 +315,7 @@ function validateCjDrafts(drafts) {
 }
 $('#cjexport').onclick = () => {
   render();
+  if (visible.some(g => g.packingError)) return toast('원본 수량이 바뀐 출고 건의 포장 나누기를 먼저 확인해 주세요.');
   cjDrafts = makeCjDrafts(visible);
   if (!cjDrafts.length) return toast('송장으로 내보낼 출고 건이 없습니다.');
   renderCjDrafts();
